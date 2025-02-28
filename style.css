@@ -223,3 +223,32 @@
 .nav-label {
     display: none;
 }
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.facebook-icon {
+    color: #1877F2;
+}
+
+.instagram-icon {
+    color: #E1306C;
+}
+
+.twitter-icon {
+    color: #000000;
+}
+
+.verified-badge {
+    color: #1DA1F2;
+}
+
+.card {
+    width: 100%;
+}
