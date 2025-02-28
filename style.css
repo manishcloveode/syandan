@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    font-family: Montserrat;
+}
+
+.flex {
+    align-items: stretch;
+    /* Change from center to stretch */
+}
+
+/* Add these class modifications */
+.bg-navy-900,
+.bg-yellow-400 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 320px;
+    /* Reduced height */
+}
+
+.relative {
+    height: 400px;
+    /* Keep center card taller */
+}
+
+.blue-section {
+    background-color: #1e40af;
+    position: relative;
+}
+
+.play-button {
+    background-color: #1e40af;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.play-button:hover {
+    background-color: #1e3a8a;
+    transform: scale(1.05);
+}
+
+.check-icon {
+    color: #1e40af;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.feature-check {
+    background-color: #dbeafe;
+    border-radius: 50%;
+    padding: 0.25rem;
+    margin-right: 0.75rem;
+}
+
+.clip-top {
+    clip-path: polygon(0 0, 100% 20%, 100% 0);
+}
+
+.clip-bottom {
+    clip-path: polygon(0 80%, 100% 100%, 0 100%);
+}
+
+
+
+/* CSS-only slideshow animation */
+@keyframes slideshow {
+
+    0%,
+    28% {
+        opacity: 1;
+        z-index: 3;
+    }
+
+    33%,
+    95% {
+        opacity: 0;
+        z-index: 1;
+    }
+
+    100% {
+        opacity: 0;
+        z-index: 2;
+    }
+}
+
+.animate-slide-1 {
+    animation: slideshow 21s infinite;
+    animation-delay: 0s;
+    opacity: 1;
+    z-index: 3;
+}
+
+.animate-slide-2 {
+    animation: slideshow 21s infinite;
+    animation-delay: -7s;
+    opacity: 0;
+    z-index: 2;
+}
+
+.animate-slide-3 {
+    animation: slideshow 21s infinite;
+    animation-delay: -14s;
+    opacity: 0;
+    z-index: 1;
+}
