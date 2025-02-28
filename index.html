@@ -122,9 +122,10 @@
 <body>
 
     <button
-        class="fixed top-1/2 right-4 transform -translate-y-1/2 bg-blue-500 text-white px-5 py-3 rounded-lg shadow-lg z-50 hover:bg-blue-600">
+        class="fixed top-1/2 right-4 transform -translate-y-1/2 rotate-90 origin-right bg-blue-500 text-white px-5 py-3 shadow-lg z-50 hover:bg-blue-600">
         Contact Us
     </button>
+
 
     <div class="relative w-full h-screen overflow-hidden">
         <!-- Background slideshow with videos and image using CSS animations -->
@@ -221,19 +222,18 @@
             <h1 class="text-3xl text-center mb-10 text-blue-950 font-bold">Our Services</h1>
 
             <!-- First row of cards -->
-            <div class="flex flex-col md:flex-row w-full mb-6 items-center">
+            <div class="flex flex-col md:flex-row w-full mb-6 items-center gap-2">
                 <!-- Card 1 -->
-                <div class="relative w-full md:w-1/3 h-[300px]">
+                <div class="relative w-full md:w-1/3 group overflow-hidden">
                     <!-- Background Image -->
                     <img src="images/IMG-20250228-WA0006.jpg" alt="Flight Simulator"
-                        class="w-full h-full object-cover absolute inset-0" />
+                        class="w-full h-full object-cover absolute inset-0 transition duration-300 group-hover:brightness-110 group-hover:contrast-125 group-hover:hue-rotate-30 group-hover:saturate-150" />
 
-                    <!-- Dark Overlay -->
+                    <!-- Dark Overlay (optional, for better visibility) -->
                     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 
                     <!-- Content -->
                     <div class="relative z-10 p-12 flex flex-col items-center justify-center text-white h-full">
-
                         <h2 class="text-2xl font-bold mb-4 text-center">Helicopter Rentals</h2>
                         <p class="text-center">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -242,18 +242,19 @@
                     </div>
                 </div>
 
+
+
                 <!-- Card 2 -->
-                <div class="relative w-full md:w-1/3 py-16">
+                <div class="relative w-full md:w-1/3 py-16 group overflow-hidden">
                     <!-- Background Image -->
                     <img src="images/IMG-20250228-WA0007.jpg" alt="Cabin Training"
-                        class="w-full h-full object-cover absolute inset-0" />
+                        class="w-full h-full object-cover absolute inset-0 transition duration-300 group-hover:brightness-110 group-hover:contrast-125 group-hover:hue-rotate-30 group-hover:saturate-150" />
 
                     <!-- Dark Overlay -->
                     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 
                     <!-- Content -->
                     <div class="relative z-10 p-12 flex flex-col items-center justify-center text-white h-full">
-
                         <h2 class="text-2xl font-bold mb-4 text-center">Pilgrimage Tours</h2>
                         <p class="text-center">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -262,18 +263,18 @@
                     </div>
                 </div>
 
+
                 <!-- Card 3 -->
-                <div class="relative w-full md:w-1/3 h-[300px]">
+                <div class="relative w-full md:w-1/3 group overflow-hidden">
                     <!-- Background Image -->
                     <img src="images/IMG-20250228-WA0009.jpg" alt="Cockpit Training"
-                        class="w-full h-full object-cover absolute inset-0" />
+                        class="w-full h-full object-cover absolute inset-0 transition duration-300 group-hover:brightness-110 group-hover:contrast-125 group-hover:hue-rotate-30 group-hover:saturate-150" />
 
                     <!-- Dark Overlay -->
                     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 
                     <!-- Content -->
                     <div class="relative z-10 p-12 flex flex-col items-center justify-center text-white h-full">
-
                         <h2 class="text-2xl font-bold mb-4 text-center">Wedding Services</h2>
                         <p class="text-center">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -281,22 +282,22 @@
                         </p>
                     </div>
                 </div>
+
             </div>
 
             <!-- Second row of cards -->
-            <div class="flex flex-col md:flex-row w-full items-center ">
+            <div class="flex flex-col md:flex-row w-full items-center gap-2 ">
                 <!-- Card 4 -->
-                <div class="relative w-full md:w-1/3 h-[300px] ">
+                <div class="relative w-full md:w-1/3 group overflow-hidden">
                     <!-- Background Image -->
                     <img src="images/IMG-20250228-WA0002.jpg" alt="Helicopter Rental"
-                        class="w-full h-full object-cover absolute inset-0" />
+                        class="w-full h-full object-cover absolute inset-0 transition duration-300 group-hover:brightness-110 group-hover:contrast-125 group-hover:hue-rotate-30 group-hover:saturate-150" />
 
                     <!-- Dark Overlay -->
                     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 
                     <!-- Content -->
                     <div class="relative z-10 p-12 flex flex-col items-center justify-center text-white h-full">
-
                         <h2 class="text-2xl font-bold mb-4 text-center">Medical Aid Services</h2>
                         <p class="text-center">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -305,18 +306,18 @@
                     </div>
                 </div>
 
+
                 <!-- Card 5 -->
-                <div class="relative w-full md:w-1/3">
+                <div class="relative w-full md:w-1/3 group overflow-hidden">
                     <!-- Background Image -->
                     <img src="images/IMG-20250228-WA0004.jpg" alt="Pilgrimage Tours"
-                        class="w-full h-full object-cover absolute inset-0" />
+                        class="w-full h-full object-cover absolute inset-0 transition duration-300 group-hover:brightness-110 group-hover:contrast-125 group-hover:hue-rotate-30 group-hover:saturate-150" />
 
                     <!-- Dark Overlay -->
                     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 
                     <!-- Content -->
                     <div class="relative z-10 p-12 flex flex-col items-center justify-center text-white h-full">
-
                         <h2 class="text-2xl font-bold mb-4 text-center">Private Holidays</h2>
                         <p class="text-center">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -325,18 +326,18 @@
                     </div>
                 </div>
 
+
                 <!-- Card 6 -->
-                <div class="relative w-full md:w-1/3 h-[300px]">
+                <div class="relative w-full md:w-1/3 group overflow-hidden">
                     <!-- Background Image -->
                     <img src="images/IMG-20250228-WA0005.jpg" alt="Medical Aid Services"
-                        class="w-full h-full object-cover absolute inset-0" />
+                        class="w-full h-full object-cover absolute inset-0 transition duration-300 group-hover:brightness-110 group-hover:contrast-125 group-hover:hue-rotate-30 group-hover:saturate-150" />
 
                     <!-- Dark Overlay -->
                     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 
                     <!-- Content -->
                     <div class="relative z-10 p-12 flex flex-col items-center justify-center text-white h-full">
-
                         <h2 class="text-2xl font-bold mb-4 text-center">Medical Aid Services</h2>
                         <p class="text-center">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -344,6 +345,7 @@
                         </p>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -379,19 +381,16 @@
 
                 <!-- Right content section -->
                 <div class="w-full md:w-7/12 p-12 md:p-16 flex flex-col justify-center">
-                    <!-- Blue subtitle -->
-                    <h3 class="text-[#061e5a] text-xl font-semibold mb-4">Welcome To Aviacademy</h3>
 
                     <!-- Main headline -->
                     <h1 class="text-navy-900 text-4xl md:text-5xl font-bold leading-tight mb-6">
-                        We Are The Best Aviation & Flight School In Town
+                        CHAR DHAM YATRA BY HELICOPTERS
                     </h1>
 
                     <!-- Description text -->
                     <p class="text-gray-600 mb-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua.
+                        Syandan Aviation is the pioneer of Chardham Yatra by helicopter. Over the years we have
+                        developed expertise in conducting this yatra.
                     </p>
 
 
@@ -400,22 +399,17 @@
                         <div>
                             <div class="feature-item gap-4">
                                 <i class="fa-solid fa-circle-check text-[#061e5a]"></i>
-                                <span class="text-gray-500 text-sm font-bold">Professional Teacher</span>
+                                <span class="text-gray-500 text-sm font-bold">05 Nights and 06 Days Package</span>
                             </div>
 
                             <div class="feature-item gap-4">
                                 <i class="fa-solid fa-circle-check text-[#061e5a]"></i>
-                                <span class="text-gray-500 text-sm font-bold">Have been certified</span>
+                                <span class="text-gray-500 text-sm font-bold">5 Star Hotel Stay in Dehradun.</span>
                             </div>
 
                             <div class="feature-item gap-4">
                                 <i class="fa-solid fa-circle-check text-[#061e5a]"></i>
-                                <span class="text-gray-500 text-sm font-bold">Quality of our research</span>
-                            </div>
-
-                            <div class="feature-item gap-4">
-                                <i class="fa-solid fa-circle-check text-[#061e5a]"></i>
-                                <span class="text-gray-500 text-sm font-bold">Breadth of our capabilities</span>
+                                <span class="text-gray-500 text-sm font-bold">All Travel by helicopter</span>
                             </div>
                         </div>
 
@@ -423,22 +417,17 @@
                         <div>
                             <div class="feature-item gap-4">
                                 <i class="fa-solid fa-circle-check text-[#061e5a]"></i>
-                                <span class="text-gray-500 text-sm font-bold">Trustworthy</span>
+                                <span class="text-gray-500 text-sm font-bold">All Stay Included</span>
                             </div>
 
                             <div class="feature-item gap-4">
                                 <i class="fa-solid fa-circle-check text-[#061e5a]"></i>
-                                <span class="text-gray-500 text-sm font-bold">High integrity</span>
+                                <span class="text-gray-500 text-sm font-bold">All Meals Included</span>
                             </div>
 
                             <div class="feature-item gap-4">
                                 <i class="fa-solid fa-circle-check text-[#061e5a]"></i>
-                                <span class="text-gray-500 text-sm font-bold">Providing The best courses</span>
-                            </div>
-
-                            <div class="feature-item gap-4">
-                                <i class="fa-solid fa-circle-check text-[#061e5a]"></i>
-                                <span class="text-gray-500 text-sm font-bold">Global reach of our business</span>
+                                <span class="text-gray-500 text-sm font-bold">VIP Darshan</span>
                             </div>
                         </div>
                     </div>
@@ -447,7 +436,7 @@
                     <div>
                         <a href="#"
                             class="inline-block bg-[#061e5a] hover:bg-blue-800 text-white font-semibold py-3 px-8  ">
-                            Contact Us
+                            Book Now
                         </a>
                     </div>
                 </div>
@@ -474,33 +463,26 @@
 
             <!-- Stats Content -->
             <div class="relative z-10 container mx-auto px-6 py-16">
-                <div class="flex grid md:grid-cols-4 text-center">
+                <div class="flex grid md:grid-cols-3 text-center">
                     <!-- Stat 1 -->
                     <div class="flex flex-col items-center w-full ">
-                        <img src="/images/student-yellow-WU35NBL.webp" alt="Student Icon" class="h-16 md:h-20 mb-4">
+                        <img src="/images/airplane.png" alt="Student Icon" class="h-16 md:h-20 mb-4">
                         <h3 class="text-3xl font-bold text-white">1,500 <span class="text-[#e37515]">+</span></h3>
                         <p class="text-lg text-gray-300">Students</p>
                     </div>
 
                     <!-- Stat 2 -->
                     <div class="flex flex-col items-center w-full ">
-                        <img src="/images/simulator-yellow-WU35NBL.webp" alt="Simulator Icon" class="h-16 md:h-20 mb-4">
+                        <img src="/images/transport.png" alt="Simulator Icon" class="h-16 md:h-20 mb-4">
                         <h3 class="text-3xl font-bold text-white">20 <span class="text-[#e37515]">+</span></h3>
                         <p class="text-lg text-gray-300">Simulators</p>
                     </div>
 
                     <!-- Stat 3 -->
                     <div class="flex flex-col items-center w-full ">
-                        <img src="/images/plane-yellow-WU35NBL.webp" alt="Plane Icon" class="h-16 md:h-20 mb-4">
+                        <img src="/images/ticket.png" alt="Plane Icon" class="h-16 md:h-20 mb-4">
                         <h3 class="text-3xl font-bold text-white">15,000 <span class="text-[#e37515]">+</span></h3>
                         <p class="text-lg text-gray-300">Square Meters</p>
-                    </div>
-
-                    <!-- Stat 4 -->
-                    <div class="flex flex-col items-center w-full ">
-                        <img src="/images/experience-icon.svg" alt="Experience Icon" class="h-16 md:h-20 mb-4">
-                        <h3 class="text-3xl font-bold text-white">10 <span class="text-[#e37515]">+</span></h3>
-                        <p class="text-lg text-gray-300">Years Experience</p>
                     </div>
                 </div>
             </div>
@@ -531,23 +513,20 @@
                 <div class="flex flex-col lg:flex-row items-center">
                     <!-- Left Side Content -->
                     <div class="lg:w-1/2 mb-8 lg:mb-0">
-                        <h5 class="text-[#e37515] font-bold mb-2">About Us</h5>
-                        <h1 class="text-5xl font-bold mb-6">Student About The Training Team</h1>
+
+                        <h1 class="text-5xl font-bold mb-6">Our Fleet Information</h1>
                         <p class=" text-sm mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor
                             incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#"
-                            class="bg-[#061e5a] hover:bg-[#061e5a] text-white font-bold py-3 px-8 inline-block transition-colors duration-300">
-                            Learn More
-                        </a>
+
                     </div>
 
 
                     <div class="lg:w-1/2 relative">
 
                         <div class="relative z-10">
-                            <img src="images/contented-pilot-looking-forward-to-the-upcoming-flight-1536x1024.webp"
-                                alt="Pilot in cockpit" class="w-full max-w-lg ml-auto">
+                            <img src="images/IMG-20250228-WA0016.jpg" alt="Pilot in cockpit"
+                                class="w-full max-w-lg ml-auto">
                         </div>
 
 
@@ -571,543 +550,501 @@
 
     <div class="pt-16 text-center bg-white">
         <div class="container mx-auto px-6">
-            <h4 class="text-[#061e5a] font-bold text-lg">Expert Teacher</h4>
-            <h2 class="text-4xl font-extrabold text-[#061e5a] mt-2">Meet Our Teaching Staff</h2>
+            <h2 class="text-4xl font-extrabold text-[#061e5a] mt-2">What Our Clients Say</h2>
+        </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto mt-10">
+        <!-- Testimonials Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Left Testimonial -->
+            <div class="bg-white rounded-xl p-6 shadow-sm flex flex-col items-center h-[400px]">
+                <div class="rounded-full overflow-hidden w-32 h-32 mb-6 border-4 border-gray-100">
+                    <img src="/images/confident-pilot--e1630577441679-768x1024.webp" alt="Captain Vincent"
+                        class="w-full h-full object-cover">
+                </div>
+                <p class="text-gray-700 text-center mb-4">Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla.</p>
+                <p class="font-bold">- Captain Vincent</p>
+                <p class="text-sm text-gray-500">Master Pilot</p>
+            </div>
+
+            <!-- Middle Testimonial (Highlighted) -->
+            <div
+                class="bg-violet-600 text-white rounded-xl p-6 shadow-lg flex flex-col items-center transform scale-105">
+                <div class="rounded-full overflow-hidden w-32 h-32 mb-6 border-4 border-pink-200 shadow-lg">
+                    <img src="/images/beautiful-stewardess-posing-near-the-modern-aircraft-e1630633318432-770x1024.webp"
+                        alt="Jenny Blair" class="w-full h-full object-cover">
+                </div>
+                <p class="text-center mb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu fugiat nulla.</p>
+                <p class="font-bold">- Jenny Blair</p>
+                <p class="text-sm text-violet-200">Stewardess Teacher</p>
+            </div>
+
+            <!-- Right Testimonial -->
+            <div class="bg-white rounded-xl p-6 shadow-sm flex flex-col items-center">
+                <div class="rounded-full overflow-hidden w-32 h-32 mb-6 border-4 border-gray-100">
+                    <img src="/images/cheerful-male-captain-standing-inside-the-plane-e1630633753659-768x1024.webp"
+                        alt="Captain Emily" class="w-full h-full object-cover">
+                </div>
+                <p class="text-gray-700 text-center mb-4">Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla.</p>
+                <p class="font-bold">- Captain Emily</p>
+                <p class="text-sm text-gray-500">Flight Officer</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- price section -->
+
+    <div class="py-16 text-center bg-white">
+        <div class="py-16 text-center bg-white">
+            <div class="container mx-auto px-6">
+                <h4 class="text-[#061e5a] font-bold text-lg">Our Pricing</h4>
+                <h2 class="text-4xl font-extrabold text-[#061e5a] mt-2">Our Pricing Program</h2>
+                <p class="text-gray-500 text-sm mt-4 max-w-2xl mx-auto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim veniam.
+                </p>
+            </div>
+
+            <!-- Pricing Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto">
+                <!-- Pricing Card -->
+                <div class="bg-white shadow-xl p-10 flex-1">
+                    <h2 class="text-xl font-bold text-gray-900">Commercial Pilot License</h2>
+                    <p class="text-lg text-gray-600 mt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper mattis.
+                    </p>
+
+                    <div class="mt-6">
+                        <span class="text-5xl font-bold text-[#061e5a]">$699</span>
+                        <span class="text-xl text-gray-500">/Month</span>
+                    </div>
+
+                    <hr class="my-6 border-gray-300">
+
+                    <ul class="space-y-4 text-gray-600 text-sm font-bold">
+                        <li class="flex items-center gap-2 ">
+                            <i class="fa-solid fa-circle-check text-[#061e5a]"></i> Certificate
+                        </li>
+                        <li class="flex items-center gap-2 ">
+                            <i class="fa-solid fa-circle-check text-[#061e5a]"></i> Flight License
+                        </li>
+                        <li class="flex items-center gap-2 ">
+                            <i class="fa-solid fa-circle-check text-[#061e5a]"></i> Life Insurance
+                        </li>
+                        <li class="flex items-center gap-2 ">
+                            <i class="fa-solid fa-circle-check text-[#061e5a]"></i>
+                            Professional Teacher
+                        </li>
+                    </ul>
+
+                    <button
+                        class="w-full bg-[#061e5a] text-white text-xl font-bold py-4 mt-8 rounded-lg hover:bg-[#061e5a] transition">
+                        Get Started
+                    </button>
+                </div>
+                <div class="bg-[#061e5a] shadow-xl  p-10 flex-1">
+                    <h2 class="text-3xl font-bold text-white">Instrument Pilot License</h2>
+                    <p class="text-lg text-gray-600 mt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper mattis.
+                    </p>
+
+                    <div class="mt-6">
+                        <span class="text-5xl font-bold text-[#e37515]">$895</span>
+                        <span class="text-xl text-gray-500">/Month</span>
+                    </div>
+
+                    <hr class="my-6 border-gray-300">
+
+                    <ul class="space-y-4 text-gray-600 text-sm font-bold">
+                        <li class="flex items-center gap-2 ">
+                            <i class="fa-solid fa-circle-check text-[#061e5a]"></i> Certificate
+                        </li>
+                        <li class="flex items-center gap-2 ">
+                            <i class="fa-solid fa-circle-check text-[#061e5a]"></i> Flight License
+                        </li>
+                        <li class="flex items-center gap-2 ">
+                            <i class="fa-solid fa-circle-check text-[#061e5a]"></i> Life Insurance
+                        </li>
+                        <li class="flex items-center gap-2 ">
+                            <i class="fa-solid fa-circle-check text-[#061e5a]"></i>
+                            Professional Teacher
+                        </li>
+                    </ul>
+
+                    <button
+                        class="w-full bg-[#061e5a] text-white text-xl font-bold py-4 mt-8 rounded-lg hover:bg-[#061e5a] transition">
+                        Get Started
+                    </button>
+                </div>
+
+                <div class="bg-white shadow-xl rounded-xl p-10 flex-1">
+                    <h2 class="text-3xl font-bold text-gray-900">Airline Transport Pilot</h2>
+                    <p class="text-lg text-gray-600 mt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper mattis.
+                    </p>
+
+                    <div class="mt-6">
+                        <span class="text-5xl font-bold text-[#061e5a]">$899</span>
+                        <span class="text-xl text-gray-500">/Month</span>
+                    </div>
+
+                    <hr class="my-6 border-gray-300">
+
+                    <ul class="space-y-4 text-gray-800 text-lg">
+                        <li class="flex items-center">
+                            <span class="text-[#061e5a] text-2xl mr-3">✔</span> Certificate
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-[#061e5a] text-2xl mr-3">✔</span> Flight License
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-[#061e5a] text-2xl mr-3">✔</span> Life Insurance
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-[#061e5a] text-2xl mr-3">✔</span> Professional Teacher
+                        </li>
+                    </ul>
+
+                    <button
+                        class="w-full bg-[#061e5a] text-white text-xl font-bold py-4 mt-8 rounded-lg hover:bg-[#061e5a] transition">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- content section -->
+    <div class="relative h-screen w-full overflow-hidden">
+
+        <div class="absolute top-0 left-0 w-full h-20 z-10">
+            <svg class="w-full h-full fill-current text-white" xmlns="http://www.w3.org/2000/svg" fill="#fff"
+                viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="elementor-shape-fill" d="M500,98.9L0,6.1V0h1000v6.1L500,98.9z"></path>
+            </svg>
+        </div>
+
+
+        <div class="absolute inset-0 bg-black">
+            <img src="/images/friendly-coworkers-resting-after-the-international-flight-e1631064018576.webp"
+                alt="Cockpit with pilots" class="w-full h-full object-cover opacity-50 " />
+        </div>
+
+
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 py-12">
+            <div class="w-16 h-16 bg-[#061e5a] rounded-full flex items-center justify-center mb-8 relative">
+                <i class="fas fa-play text-white text-2xl ml-1"></i>
+            </div>
+            <h1 class="text-4xl  font-bold text-white mb-4 max-w-4xl">
+                Get The Best Knowledge And Your License With
+                <span class="text-[#e37515]">Aviacademy</span>
+            </h1>
+            <p class="text-white text-base md:text-base max-w-3xl mb-10">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua
+            </p>
+            <a href="#"
+                class="bg-[#061e5a] hover:bg-[#061e5a] text-white font-bold py-3 px-8  text-lg transition duration-300">
+                Contact us
+            </a>
+        </div>
+        <div class="absolute bottom-0 left-0 w-full h-16" style="overflow: hidden;">
+
+            <svg class="w-full h-16 fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"
+                preserveAspectRatio="none">
+                <path class="elementor-shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
+            </svg>
+        </div>
+    </div>
+
+    <!-- blog section -->
+
+
+    <div class="py-16 text-center bg-white">
+        <div class="container mx-auto px-6">
+            <h4 class="text-[#061e5a] font-bold text-lg">Our Blog</h4>
+            <h2 class="text-4xl font-extrabold text-[#061e5a] mt-2">LATEST BLOG & ARTICLES</h2>
             <p class="text-gray-500 text-sm mt-4 max-w-2xl mx-auto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua ut enim ad minim veniam.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam.
             </p>
         </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 px-4 max-w-6xl mx-auto">
-            <div class="relative group overflow-hidden h-[550px]">
-                <img src="/images/confident-pilot--e1630577441679-768x1024.webp" alt="Captain Vincent"
-                    class="w-full h-full object-cover transition duration-500 group-hover:brightness-50">
-
-                <div
-                    class="absolute inset-0 flex flex-col justify-between opacity-0 group-hover:opacity-100 transition duration-500 p-4">
-                    <p class="absolute right-4 top-24 text-white text-sm rotate-90 origin-top-right">Master Pilot</p>
-                    <div class="absolute bottom-6 right-4 flex flex-col">
-                        <a href="#"
-                            class="w-8 h-8 flex items-center justify-center bg-[#e37515] text-black rounded-full shadow-lg mb-[10px]">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#"
-                            class="w-8 h-8 flex items-center justify-center bg-[#e37515] text-black rounded-full shadow-lg mb-[10px]">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#"
-                            class="w-8 h-8 flex items-center justify-center bg-[#e37515] text-black rounded-full shadow-lg">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-white shadow-md">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/2">
+                        <img src="images/cheerful-pilots-and-stewardesses-chatting-on-the-street-1536x1024.webp"
+                            alt="Flight attendants at airport" class="w-full h-96 object-cover" />
                     </div>
-                    <p class="absolute bottom-4 left-4 text-white text-lg font-bold">Captain Vincent</p>
-                </div>
-            </div>
-            <div class="relative group overflow-hidden h-[550px]">
-                <img src="/images/beautiful-stewardess-posing-near-the-modern-aircraft-e1630633318432-770x1024.webp"
-                    alt="Captain Robert"
-                    class="w-full h-full object-cover transition duration-500 group-hover:brightness-50">
-
-                <div
-                    class="absolute inset-0 flex flex-col justify-between opacity-0 group-hover:opacity-100 transition duration-500 p-4">
-                    <p class="absolute right-4 top-36 text-white text-sm rotate-90 origin-top-right">Stewardess Teacher
-                    </p>
-                    <div class="absolute bottom-6 right-4 flex flex-col">
-                        <a href="#"
-                            class="w-8 h-8 flex items-center justify-center bg-[#e37515] text-black rounded-full shadow-lg mb-[10px]">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#"
-                            class="w-8 h-8 flex items-center justify-center bg-[#e37515] text-black rounded-full shadow-lg mb-[10px]">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#"
-                            class="w-8 h-8 flex items-center justify-center bg-[#e37515] text-black rounded-full shadow-lg">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+                    <div class="md:w-1/2 p-6 flex flex-col text-left">
+                        <p class="text-[#061e5a] font-medium mb-2">Tips & Trick</p>
+                        <h1 class="text-xl md:text-xl font-bold text-navy-900 mb-2">
+                            attendant needs to journal</h1>
+                        <p class="text-gray-500 mb-4">September 6, 2021</p>
+                        <p class="text-gray-700 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut...</p>
+                        <div>
+                            <a href="#" class="inline-flex items-center text-[#061e5a] font-bold">
+                                Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                    <p class="absolute bottom-4 left-4 text-white text-lg font-bold">Jenny Blair</p>
                 </div>
             </div>
 
-            <div class="relative group overflow-hidden h-[550px] shadow-lg">
-                <img src="/images/cheerful-male-captain-standing-inside-the-plane-e1630633753659-768x1024.webp"
-                    alt="Captain Emily"
-                    class="w-full h-full object-cover transition duration-500 group-hover:brightness-50">
-
-                <div
-                    class="absolute inset-0 flex flex-col justify-between opacity-0 group-hover:opacity-100 transition duration-500 p-4">
-                    <p class="absolute right-4 top-28 text-white text-sm rotate-90 origin-top-right">Flight Officer</p>
-
-                    <div class="absolute bottom-6 right-4 flex flex-col">
-                        <a href="#"
-                            class="w-8 h-8 flex items-center justify-center bg-[#e37515] text-black rounded-full shadow-lg mb-[10px]">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#"
-                            class="w-8 h-8 flex items-center justify-center bg-[#e37515] text-black rounded-full shadow-lg mb-[10px]">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#"
-                            class="w-8 h-8 flex items-center justify-center bg-[#e37515] text-black rounded-full shadow-lg">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+            <!-- Card 2 -->
+            <div class="bg-white shadow-md">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/2">
+                        <img src="images/male-pilot-is-driving-airplane-in-cockpit-1536x1024.webp"
+                            alt="Flight attendant" class="w-full h-96 object-cover" />
                     </div>
-                    <p class="absolute bottom-4 left-4 text-white text-lg font-bold">Captain Emily</p>
+                    <div class="md:w-1/2 p-6 flex flex-col text-left">
+                        <p class="text-[#061e5a] font-medium mb-2">Inside</p>
+                        <h1 class="text-xl md:text-xl font-bold text-navy-900 mb-2">Learn how to be a better pilot
+                            and develop your skills</h1>
+                        <p class="text-gray-500 mb-4">October 10, 2021</p>
+                        <p class="text-gray-500 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut...</p>
+                        <div>
+                            <a href="#" class="inline-flex items-center text-[#061e5a] font-bold">
+                                Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white shadow-md">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/2">
+                        <img src="images/handsome-man-and-woman-having-fun-in-the-aviation-hangar-e1630639415633.webp"
+                            alt="Pilot training" class="w-full h-96 object-cover" />
+                    </div>
+                    <div class="md:w-1/2 p-6 flex flex-col text-left">
+                        <p class="text-[#061e5a] font-medium mb-2">Trends</p>
+                        <h1 class="text-xl md:text-xl font-bold text-navy-900 mb-2">How To Manage Tour Mental
+                            Health As Cabin Crew</h1>
+                        <p class="text-gray-500 mb-4">November 15, 2021</p>
+                        <p class="text-gray-700 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut...
+
+                        </p>
+                        <div>
+                            <a href="#" class="inline-flex items-center text-[#061e5a] font-bold">
+                                Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white shadow-md">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/2">
+                        <img src="images/young-cabin-crew-posing-for-the-camera-indoors-e1630902153104-1536x798.webp"
+                            alt="Airplane maintenance" class="w-full h-96 object-cover" />
+                    </div>
+                    <div class="md:w-1/2 p-6 flex flex-col text-left">
+                        <p class="text-[#061e5a] font-medium mb-2">Inside
+                        </p>
+                        <h1 class="text-xl md:text-xl font-bold text-navy-900 mb-2">What Are The Advantages Of
+                            Working As Cabin Crew?</h1>
+                        <p class="text-gray-500 mb-4">December 1, 2021</p>
+                        <p class="text-gray-700 mb-6">Behind-the-scenes insights on how aircraft are inspected
+                            before takeoff...</p>
+                        <div>
+                            <a href="#" class="inline-flex items-center text-[#061e5a] font-bold">
+                                Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- price section -->
+    </div>
 
-        <div class="py-16 text-center bg-white">
-            <div class="py-16 text-center bg-white">
-                <div class="container mx-auto px-6">
-                    <h4 class="text-[#061e5a] font-bold text-lg">Our Pricing</h4>
-                    <h2 class="text-4xl font-extrabold text-[#061e5a] mt-2">Our Pricing Program</h2>
-                    <p class="text-gray-500 text-sm mt-4 max-w-2xl mx-auto">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam.
-                    </p>
-                </div>
 
-                <!-- Pricing Cards Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto">
-                    <!-- Pricing Card -->
-                    <div class="bg-white shadow-xl p-10 flex-1">
-                        <h2 class="text-xl font-bold text-gray-900">Commercial Pilot License</h2>
-                        <p class="text-lg text-gray-600 mt-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                            ullamcorper mattis.
-                        </p>
 
-                        <div class="mt-6">
-                            <span class="text-5xl font-bold text-[#061e5a]">$699</span>
-                            <span class="text-xl text-gray-500">/Month</span>
-                        </div>
-
-                        <hr class="my-6 border-gray-300">
-
-                        <ul class="space-y-4 text-gray-600 text-sm font-bold">
-                            <li class="flex items-center gap-2 ">
-                                <i class="fa-solid fa-circle-check text-[#061e5a]"></i> Certificate
-                            </li>
-                            <li class="flex items-center gap-2 ">
-                                <i class="fa-solid fa-circle-check text-[#061e5a]"></i> Flight License
-                            </li>
-                            <li class="flex items-center gap-2 ">
-                                <i class="fa-solid fa-circle-check text-[#061e5a]"></i> Life Insurance
-                            </li>
-                            <li class="flex items-center gap-2 ">
-                                <i class="fa-solid fa-circle-check text-[#061e5a]"></i>
-                                Professional Teacher
-                            </li>
-                        </ul>
-
-                        <button
-                            class="w-full bg-[#061e5a] text-white text-xl font-bold py-4 mt-8 rounded-lg hover:bg-[#061e5a] transition">
-                            Get Started
-                        </button>
-                    </div>
-                    <div class="bg-[#061e5a] shadow-xl  p-10 flex-1">
-                        <h2 class="text-3xl font-bold text-white">Instrument Pilot License</h2>
-                        <p class="text-lg text-gray-600 mt-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                            ullamcorper mattis.
-                        </p>
-
-                        <div class="mt-6">
-                            <span class="text-5xl font-bold text-[#e37515]">$895</span>
-                            <span class="text-xl text-gray-500">/Month</span>
-                        </div>
-
-                        <hr class="my-6 border-gray-300">
-
-                        <ul class="space-y-4 text-gray-600 text-sm font-bold">
-                            <li class="flex items-center gap-2 ">
-                                <i class="fa-solid fa-circle-check text-[#061e5a]"></i> Certificate
-                            </li>
-                            <li class="flex items-center gap-2 ">
-                                <i class="fa-solid fa-circle-check text-[#061e5a]"></i> Flight License
-                            </li>
-                            <li class="flex items-center gap-2 ">
-                                <i class="fa-solid fa-circle-check text-[#061e5a]"></i> Life Insurance
-                            </li>
-                            <li class="flex items-center gap-2 ">
-                                <i class="fa-solid fa-circle-check text-[#061e5a]"></i>
-                                Professional Teacher
-                            </li>
-                        </ul>
-
-                        <button
-                            class="w-full bg-[#061e5a] text-white text-xl font-bold py-4 mt-8 rounded-lg hover:bg-[#061e5a] transition">
-                            Get Started
-                        </button>
-                    </div>
-
-                    <div class="bg-white shadow-xl rounded-xl p-10 flex-1">
-                        <h2 class="text-3xl font-bold text-gray-900">Airline Transport Pilot</h2>
-                        <p class="text-lg text-gray-600 mt-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                            ullamcorper mattis.
-                        </p>
-
-                        <div class="mt-6">
-                            <span class="text-5xl font-bold text-[#061e5a]">$899</span>
-                            <span class="text-xl text-gray-500">/Month</span>
-                        </div>
-
-                        <hr class="my-6 border-gray-300">
-
-                        <ul class="space-y-4 text-gray-800 text-lg">
-                            <li class="flex items-center">
-                                <span class="text-[#061e5a] text-2xl mr-3">✔</span> Certificate
-                            </li>
-                            <li class="flex items-center">
-                                <span class="text-[#061e5a] text-2xl mr-3">✔</span> Flight License
-                            </li>
-                            <li class="flex items-center">
-                                <span class="text-[#061e5a] text-2xl mr-3">✔</span> Life Insurance
-                            </li>
-                            <li class="flex items-center">
-                                <span class="text-[#061e5a] text-2xl mr-3">✔</span> Professional Teacher
-                            </li>
-                        </ul>
-
-                        <button
-                            class="w-full bg-[#061e5a] text-white text-xl font-bold py-4 mt-8 rounded-lg hover:bg-[#061e5a] transition">
-                            Get Started
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- content section -->
-        <div class="relative h-screen w-full overflow-hidden">
-
+    <!-- Footer -->
+    <footer class="bg-[#061e5a] text-white">
+        <div class="relative h-[100px]">
             <div class="absolute top-0 left-0 w-full h-20 z-10">
                 <svg class="w-full h-full fill-current text-white" xmlns="http://www.w3.org/2000/svg" fill="#fff"
                     viewBox="0 0 1000 100" preserveAspectRatio="none">
                     <path class="elementor-shape-fill" d="M500,98.9L0,6.1V0h1000v6.1L500,98.9z"></path>
                 </svg>
             </div>
-
-
-            <div class="absolute inset-0 bg-black">
-                <img src="/images/friendly-coworkers-resting-after-the-international-flight-e1631064018576.webp"
-                    alt="Cockpit with pilots" class="w-full h-full object-cover opacity-50 " />
-            </div>
-
-
-            <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 py-12">
-                <div class="w-16 h-16 bg-[#061e5a] rounded-full flex items-center justify-center mb-8 relative">
-                    <i class="fas fa-play text-white text-2xl ml-1"></i>
-                </div>
-                <h1 class="text-4xl  font-bold text-white mb-4 max-w-4xl">
-                    Get The Best Knowledge And Your License With
-                    <span class="text-[#e37515]">Aviacademy</span>
-                </h1>
-                <p class="text-white text-base md:text-base max-w-3xl mb-10">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua
-                </p>
-                <a href="#"
-                    class="bg-[#061e5a] hover:bg-[#061e5a] text-white font-bold py-3 px-8  text-lg transition duration-300">
-                    Contact us
-                </a>
-            </div>
-            <div class="absolute bottom-0 left-0 w-full h-16" style="overflow: hidden;">
-
-                <svg class="w-full h-16 fill-current text-white" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 1000 100" preserveAspectRatio="none">
-                    <path class="elementor-shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
-                </svg>
-            </div>
         </div>
-
-        <!-- blog section -->
-
-
-        <div class="py-16 text-center bg-white">
-            <div class="container mx-auto px-6">
-                <h4 class="text-[#061e5a] font-bold text-lg">Our Blog</h4>
-                <h2 class="text-4xl font-extrabold text-[#061e5a] mt-2">LATEST BLOG & ARTICLES</h2>
-                <p class="text-gray-500 text-sm mt-4 max-w-2xl mx-auto">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam.
-                </p>
-            </div>
-            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-                <!-- Card 1 -->
-                <div class="bg-white shadow-md">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="md:w-1/2">
-                            <img src="images/cheerful-pilots-and-stewardesses-chatting-on-the-street-1536x1024.webp"
-                                alt="Flight attendants at airport" class="w-full h-96 object-cover" />
-                        </div>
-                        <div class="md:w-1/2 p-6 flex flex-col text-left">
-                            <p class="text-[#061e5a] font-medium mb-2">Tips & Trick</p>
-                            <h1 class="text-xl md:text-xl font-bold text-navy-900 mb-2">
-                                attendant needs to journal</h1>
-                            <p class="text-gray-500 mb-4">September 6, 2021</p>
-                            <p class="text-gray-700 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut...</p>
-                            <div>
-                                <a href="#" class="inline-flex items-center text-[#061e5a] font-bold">
-                                    Read More
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
+        <!-- Contact Info Section -->
+        <div class="bg-navy-950 py-6">
+            <div class="container mx-auto px-4 flex flex-wrap justify-between">
+                <!-- Phone -->
+                <div class="flex items-center mb-4 md:mb-0">
+                    <div class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                        <i class="fas fa-phone text-navy-950" style="color: #031d49;"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold text-xl">Give Us A Call</p>
+                        <p>+6281 2345 1234</p>
                     </div>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="bg-white shadow-md">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="md:w-1/2">
-                            <img src="images/male-pilot-is-driving-airplane-in-cockpit-1536x1024.webp"
-                                alt="Flight attendant" class="w-full h-96 object-cover" />
-                        </div>
-                        <div class="md:w-1/2 p-6 flex flex-col text-left">
-                            <p class="text-[#061e5a] font-medium mb-2">Inside</p>
-                            <h1 class="text-xl md:text-xl font-bold text-navy-900 mb-2">Learn how to be a better pilot
-                                and develop your skills</h1>
-                            <p class="text-gray-500 mb-4">October 10, 2021</p>
-                            <p class="text-gray-500 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut...</p>
-                            <div>
-                                <a href="#" class="inline-flex items-center text-[#061e5a] font-bold">
-                                    Read More
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
+                <!-- Email -->
+                <div class="flex items-center mb-4 md:mb-0">
+                    <div class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                        <i class="fas fa-envelope text-navy-950" style="color: #031d49;"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold text-xl ">Send Us A Message</p>
+                        <p>aviacademy@support.com</p>
                     </div>
                 </div>
 
-                <!-- Card 3 -->
-                <div class="bg-white shadow-md">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="md:w-1/2">
-                            <img src="images/handsome-man-and-woman-having-fun-in-the-aviation-hangar-e1630639415633.webp"
-                                alt="Pilot training" class="w-full h-96 object-cover" />
-                        </div>
-                        <div class="md:w-1/2 p-6 flex flex-col text-left">
-                            <p class="text-[#061e5a] font-medium mb-2">Trends</p>
-                            <h1 class="text-xl md:text-xl font-bold text-navy-900 mb-2">How To Manage Tour Mental
-                                Health As Cabin Crew</h1>
-                            <p class="text-gray-500 mb-4">November 15, 2021</p>
-                            <p class="text-gray-700 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut...
-
-                            </p>
-                            <div>
-                                <a href="#" class="inline-flex items-center text-[#061e5a] font-bold">
-                                    Read More
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
+                <!-- Location -->
+                <div class="flex items-center mb-4 md:mb-0">
+                    <div class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                        <i class="fas fa-map-marker-alt text-navy-950" style="color: #031d49;"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold text-xl">School Location</p>
+                        <p>Jl. Raya Renon No. 88 DPS</p>
                     </div>
                 </div>
 
-                <!-- Card 4 -->
-                <div class="bg-white shadow-md">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="md:w-1/2">
-                            <img src="images/young-cabin-crew-posing-for-the-camera-indoors-e1630902153104-1536x798.webp"
-                                alt="Airplane maintenance" class="w-full h-96 object-cover" />
-                        </div>
-                        <div class="md:w-1/2 p-6 flex flex-col text-left">
-                            <p class="text-[#061e5a] font-medium mb-2">Inside
-                            </p>
-                            <h1 class="text-xl md:text-xl font-bold text-navy-900 mb-2">What Are The Advantages Of
-                                Working As Cabin Crew?</h1>
-                            <p class="text-gray-500 mb-4">December 1, 2021</p>
-                            <p class="text-gray-700 mb-6">Behind-the-scenes insights on how aircraft are inspected
-                                before takeoff...</p>
-                            <div>
-                                <a href="#" class="inline-flex items-center text-[#061e5a] font-bold">
-                                    Read More
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
+                <!-- Hours -->
+                <div class="flex items-center">
+                    <div class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                        <i class="fas fa-clock text-navy-950" style="color: #031d49;"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold text-xl">Opening Hours</p>
+                        <p>09:00 AM - 18:00 PM</p>
                     </div>
                 </div>
             </div>
         </div>
 
-
-
-        <!-- Footer -->
-        <footer class="bg-[#061e5a] text-white">
-            <div class="relative h-[100px]">
-                <div class="absolute top-0 left-0 w-full h-20 z-10">
-                    <svg class="w-full h-full fill-current text-white" xmlns="http://www.w3.org/2000/svg" fill="#fff"
-                        viewBox="0 0 1000 100" preserveAspectRatio="none">
-                        <path class="elementor-shape-fill" d="M500,98.9L0,6.1V0h1000v6.1L500,98.9z"></path>
-                    </svg>
-                </div>
-            </div>
-            <!-- Contact Info Section -->
-            <div class="bg-navy-950 py-6">
-                <div class="container mx-auto px-4 flex flex-wrap justify-between">
-                    <!-- Phone -->
-                    <div class="flex items-center mb-4 md:mb-0">
-                        <div class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center mr-4">
-                            <i class="fas fa-phone text-navy-950" style="color: #031d49;"></i>
-                        </div>
-                        <div>
-                            <p class="font-bold text-xl">Give Us A Call</p>
-                            <p>+6281 2345 1234</p>
-                        </div>
-                    </div>
-
-                    <!-- Email -->
-                    <div class="flex items-center mb-4 md:mb-0">
-                        <div class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center mr-4">
-                            <i class="fas fa-envelope text-navy-950" style="color: #031d49;"></i>
-                        </div>
-                        <div>
-                            <p class="font-bold text-xl ">Send Us A Message</p>
-                            <p>aviacademy@support.com</p>
-                        </div>
-                    </div>
-
-                    <!-- Location -->
-                    <div class="flex items-center mb-4 md:mb-0">
-                        <div class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center mr-4">
-                            <i class="fas fa-map-marker-alt text-navy-950" style="color: #031d49;"></i>
-                        </div>
-                        <div>
-                            <p class="font-bold text-xl">School Location</p>
-                            <p>Jl. Raya Renon No. 88 DPS</p>
-                        </div>
-                    </div>
-
-                    <!-- Hours -->
+        <!-- Main Footer Content -->
+        <div class="py-12">
+            <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10">
+                <!-- Logo and Description -->
+                <div class="space-y-6">
                     <div class="flex items-center">
-                        <div class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center mr-4">
-                            <i class="fas fa-clock text-navy-950" style="color: #031d49;"></i>
-                        </div>
-                        <div>
-                            <p class="font-bold text-xl">Opening Hours</p>
-                            <p>09:00 AM - 18:00 PM</p>
-                        </div>
+                        <img src="images/main-logo.png" alt="Aviacademy Logo" class="mr-3">
+
+                    </div>
+                    <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                        tellus, luctus
+                        nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                    <!-- Social Media Icons -->
+                    <div class="flex gap-4">
+                        <a href="#"
+                            class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center text-navy-950 hover:bg-[#e37515] transition">
+                            <i class="fab fa-facebook-f" style="color: #031d49;"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center text-navy-950 hover:bg-[#e37515] transition">
+                            <i class="fab fa-twitter" style="color: #031d49;"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center text-navy-950 hover:bg-[#e37515] transition">
+                            <i class="fab fa-instagram" style="color: #031d49;"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center text-navy-950 hover:bg-[#e37515] transition">
+                            <i class="fab fa-youtube" style="color: #031d49;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="space-y-6">
+                    <h3 class="text-xl font-bold">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="hover:text-[#e37515] transition">Home</a></li>
+                        <li><a href="#" class="hover:text-[#e37515] transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-[#e37515] transition">Services</a></li>
+                        <li><a href="#" class="hover:text-[#e37515] transition">Pricing</a></li>
+                        <li><a href="#" class="hover:text-[#e37515] transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Useful Links -->
+                <div class="space-y-6">
+                    <h3 class="text-xl font-bold">Useful Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="hover:text-[#e37515] transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-[#e37515] transition">Terms and Conditions</a></li>
+                        <li><a href="#" class="hover:text-[#e37515] transition">Disclaimer</a></li>
+                        <li><a href="#" class="hover:text-[#e37515] transition">Support</a></li>
+                        <li><a href="#" class="hover:text-[#e37515] transition">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="space-y-6">
+                    <h3 class="text-xl font-bold">Newsletter</h3>
+                    <p class="text-gray-400">
+                        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incididunt
+                        ut labore et
+                        dolore magna aliqua dolore pretium sollicitudin fermentum.
+                    </p>
+
+                    <!-- Newsletter Form -->
+                    <div class="flex">
+                        <input type="email" placeholder="Your Email Address"
+                            class="py-3 px-4 w-full bg-white text-gray-800 focus:outline-none rounded-l-md">
+                        <button class="bg-[#061e5a] py-3 px-4 text-white hover:bg-[#061e5a] transition rounded-r-md">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Main Footer Content -->
-            <div class="py-12">
-                <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10">
-                    <!-- Logo and Description -->
-                    <div class="space-y-6">
-                        <div class="flex items-center">
-                            <img src="images/main-logo.png" alt="Aviacademy Logo" class="mr-3">
-
-                        </div>
-                        <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                            tellus, luctus
-                            nec ullamcorper mattis, pulvinar dapibus leo.</p>
-
-                        <!-- Social Media Icons -->
-                        <div class="flex gap-4">
-                            <a href="#"
-                                class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center text-navy-950 hover:bg-[#e37515] transition">
-                                <i class="fab fa-facebook-f" style="color: #031d49;"></i>
-                            </a>
-                            <a href="#"
-                                class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center text-navy-950 hover:bg-[#e37515] transition">
-                                <i class="fab fa-twitter" style="color: #031d49;"></i>
-                            </a>
-                            <a href="#"
-                                class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center text-navy-950 hover:bg-[#e37515] transition">
-                                <i class="fab fa-instagram" style="color: #031d49;"></i>
-                            </a>
-                            <a href="#"
-                                class="bg-[#e37515] rounded-full w-12 h-12 flex items-center justify-center text-navy-950 hover:bg-[#e37515] transition">
-                                <i class="fab fa-youtube" style="color: #031d49;"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Quick Links -->
-                    <div class="space-y-6">
-                        <h3 class="text-xl font-bold">Quick Links</h3>
-                        <ul class="space-y-3">
-                            <li><a href="#" class="hover:text-[#e37515] transition">Home</a></li>
-                            <li><a href="#" class="hover:text-[#e37515] transition">About Us</a></li>
-                            <li><a href="#" class="hover:text-[#e37515] transition">Services</a></li>
-                            <li><a href="#" class="hover:text-[#e37515] transition">Pricing</a></li>
-                            <li><a href="#" class="hover:text-[#e37515] transition">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Useful Links -->
-                    <div class="space-y-6">
-                        <h3 class="text-xl font-bold">Useful Links</h3>
-                        <ul class="space-y-3">
-                            <li><a href="#" class="hover:text-[#e37515] transition">Privacy Policy</a></li>
-                            <li><a href="#" class="hover:text-[#e37515] transition">Terms and Conditions</a></li>
-                            <li><a href="#" class="hover:text-[#e37515] transition">Disclaimer</a></li>
-                            <li><a href="#" class="hover:text-[#e37515] transition">Support</a></li>
-                            <li><a href="#" class="hover:text-[#e37515] transition">FAQ</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Newsletter -->
-                    <div class="space-y-6">
-                        <h3 class="text-xl font-bold">Newsletter</h3>
-                        <p class="text-gray-400">
-                            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incididunt
-                            ut labore et
-                            dolore magna aliqua dolore pretium sollicitudin fermentum.
-                        </p>
-
-                        <!-- Newsletter Form -->
-                        <div class="flex">
-                            <input type="email" placeholder="Your Email Address"
-                                class="py-3 px-4 w-full bg-white text-gray-800 focus:outline-none rounded-l-md">
-                            <button
-                                class="bg-[#061e5a] py-3 px-4 text-white hover:bg-[#061e5a] transition rounded-r-md">
-                                <i class="fas fa-paper-plane"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+        <!-- Copyright -->
+        <div class="border-t border-gray-800 py-6">
+            <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+                <p>Aviation & Flight School Template Kit By Jegtheme.</p>
+                <p>Copyright © 2021. All rights reserved.</p>
             </div>
-
-            <!-- Copyright -->
-            <div class="border-t border-gray-800 py-6">
-                <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-                    <p>Aviation & Flight School Template Kit By Jegtheme.</p>
-                    <p>Copyright © 2021. All rights reserved.</p>
-                </div>
-            </div>
-        </footer>
+        </div>
+    </footer>
 
 </body>
 
